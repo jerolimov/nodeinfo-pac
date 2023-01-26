@@ -9,11 +9,11 @@ metadata:
 spec:
   params:
     - name: APP_NAME
-      value: nodeinfo2
+      value: nodeinfo-pac
     - name: GIT_REPO
-      value: 'https://github.com/jerolimov/nodeinfo-pac'
+      value: "{{ repo_url }}"
     - name: GIT_REVISION
-      value: ''
+      value: "{{ revision }}"
     - name: IMAGE_NAME
       value: 'image-registry.openshift-image-registry.svc:5000/christoph/nodeinfo-pac'
     - name: PATH_CONTEXT
