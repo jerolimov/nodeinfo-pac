@@ -4,9 +4,9 @@
 
 **2. Add a webhook**
 
-Git repo > Setting > WebHook > Add
+Git repo > Setting > Webhooks > Add Webhook
 
-PayLoad URL depennds on your cluster:
+Payload URL depennds on your cluster:
 
 * The [DevSandbox](https://developers.redhat.com/developer-sandbox) webhook URL depends on user partitioning, my is:
 
