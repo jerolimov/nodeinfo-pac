@@ -15,7 +15,7 @@ spec:
     - name: GIT_REVISION
       value: "{{ revision }}"
     - name: IMAGE_NAME
-      value: 'image-registry.openshift-image-registry.svc:5000/christoph/nodeinfo-pac'
+      value: 'image-registry.openshift-image-registry.svc:5000/{{ namespace }}/nodeinfo-pac'
     - name: PATH_CONTEXT
       value: .
   pipelineSpec:
@@ -31,7 +31,7 @@ spec:
         default: ''
       - name: IMAGE_NAME
         type: string
-        default: 'image-registry.openshift-image-registry.svc:5000/christoph/nodeinfo-pac'
+        default: 'image-registry.openshift-image-registry.svc:5000/{{ namespace }}/nodeinfo-pac'
       - name: PATH_CONTEXT
         type: string
         default: .
