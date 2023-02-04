@@ -1,11 +1,11 @@
 {
-  "name": "nodeinfo",
-  "description": "nodeinfo",
+  "name": "nodeinfo-pac",
+  "description": "nodeinfo-pac",
   "version": "0.0.1",
   "author": "Christoph Jerolimov",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/jerolimov/nodeinfo"
+    "url": "https://github.com/jerolimov/nodeinfo-pac"
   },
   "scripts": {
     "dev": "ts-node src",
