@@ -10,4 +10,4 @@ echo $i > "$file"
 
 git add "$file"
 git commit -m "Increase counter"
-git push
+
